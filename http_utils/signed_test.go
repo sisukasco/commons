@@ -5,9 +5,10 @@ import (
 	"encoding/json"
 	"net/http"
 	"net/http/httptest"
-	"github.com/sisukas/commons/crypto"
-	"github.com/sisukas/commons/http_utils"
 	"testing"
+
+	"github.com/sisukasco/commons/crypto"
+	"github.com/sisukasco/commons/http_utils"
 
 	"github.com/stretchr/testify/assert"
 	"syreclabs.com/go/faker"

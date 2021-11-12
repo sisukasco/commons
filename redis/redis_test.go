@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	sredis "github.com/sisukas/commons/redis"
+	sredis "github.com/sisukasco/commons/redis"
 
 	redigo "github.com/gomodule/redigo/redis"
 	"syreclabs.com/go/faker"

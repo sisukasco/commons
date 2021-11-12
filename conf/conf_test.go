@@ -2,8 +2,9 @@ package conf_test
 
 import (
 	"os"
-	"github.com/sisukas/commons/conf"
 	"testing"
+
+	"github.com/sisukasco/commons/conf"
 
 	"github.com/spf13/pflag"
 	"github.com/stretchr/testify/assert"

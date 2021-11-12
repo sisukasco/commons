@@ -1,8 +1,9 @@
 package crypto_test
 
 import (
-	"github.com/sisukas/commons/crypto"
 	"testing"
+
+	"github.com/sisukasco/commons/crypto"
 )
 
 func TestDecryptAES(t *testing.T) {

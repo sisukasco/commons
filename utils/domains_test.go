@@ -3,7 +3,7 @@ package utils_test
 import (
 	"testing"
 
-	"github.com/sisukas/commons/utils"
+	"github.com/sisukasco/commons/utils"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"log"
 
-	"github.com/sisukas/commons/utils"
+	"github.com/sisukasco/commons/utils"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"

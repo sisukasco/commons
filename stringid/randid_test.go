@@ -2,8 +2,9 @@ package stringid_test
 
 import (
 	"fmt"
-	"github.com/sisukas/commons/stringid"
 	"testing"
+
+	"github.com/sisukasco/commons/stringid"
 )
 
 func TestCreatingID(t *testing.T) {

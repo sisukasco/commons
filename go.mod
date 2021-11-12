@@ -1,4 +1,4 @@
-module github.com/sisukas/commons
+module github.com/sisukasco/commons
 
 go 1.15
 
