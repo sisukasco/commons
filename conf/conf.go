@@ -11,6 +11,7 @@ import (
 	kenv "github.com/knadh/koanf/providers/env"
 	kfile "github.com/knadh/koanf/providers/file"
 	"github.com/knadh/koanf/providers/posflag"
+	"github.com/sisukasco/commons/utils"
 	"github.com/spf13/pflag"
 )
 
@@ -36,7 +37,7 @@ func LoadConf(args []string, envPrefix string, addnl func(flags *pflag.FlagSet))
 
 	cf, _ := confx.Flags.GetString("conf")
 
-	if len(cf) > 0 {
+	if len(cf) > 0 && utils.FileExists(cf) {
 		err := confx.Konf.Load(kfile.Provider(cf), kyaml.Parser())
 		if err != nil {
 			return nil, err
